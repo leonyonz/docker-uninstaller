@@ -9,6 +9,9 @@ rm -rf /var/lib/docker
 ls /var/lib/ | grep doc
 ls /etc/ | grep docker
 rm -rf /etc/docker
+ls /var/run/ | grep docker
+rm -rf /etc/docker
 ls /etc/ |grep docker
 umount /var/lib/docker/aufs
 rm -rf /var/lib/docker
+echo "DONE ! Make sure docker is uninstalled"
