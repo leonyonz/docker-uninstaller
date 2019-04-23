@@ -13,8 +13,8 @@ ls /var/lib/ | grep doc
 ls /etc/ | grep docker
 rm -rf /etc/docker
 ls /var/run/ | grep docker
-rm -rf /etc/docker
-ls /etc/ |grep docker
+rm -rf /var/run/docker
+rm -rf /var/run/docker.sock
 
 ##unmount volume driver
 umount /var/lib/docker/aufs
