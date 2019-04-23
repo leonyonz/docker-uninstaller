@@ -9,3 +9,4 @@ Bash script for remove docker service
 
 Thanks!
 Work on Ubuntu & Debian distro
+Note: Run with root
